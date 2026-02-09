@@ -3,59 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YC | Product Manager Portfolio</title>
+    <title>YC | Product Manager Project Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans">
+<body class="bg-white text-gray-900 font-sans">
 
-    <nav class="fixed w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
-        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-            <span class="text-xl font-bold tracking-tighter text-blue-600">YC_PORTFOLIO</span>
-            <div class="space-x-6 text-sm font-medium">
-                <a href="#projects" class="hover:text-blue-600 transition">產品案例</a>
-            </div>
+    <nav class="w-full bg-white border-b border-gray-100 sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-6 py-4">
+            <span class="text-sm font-black tracking-widest text-blue-600">YC / PRODUCT CASE STUDY</span>
         </div>
     </nav>
 
-    <section class="pt-40 pb-24 px-6">
-        <div class="max-w-5xl mx-auto text-center">
-            <h1 class="text-5xl font-extrabold mb-6 text-gray-900 tracking-tight">
-                我是 YC，一名數據驅動的產品經理
+    <header class="pt-20 pb-16 px-6 bg-gray-50">
+        <div class="max-w-5xl mx-auto">
+            <h1 class="text-4xl font-extrabold mb-4 tracking-tight">
+                MaaS 平台：數據驅動的產品迭代優化
             </h1>
-            <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-                專注於 MaaS 平台優化，擅長將複雜的用戶痛點轉化為高價值的產品決策。<br>
-                透過數據分析減少用戶流失，並利用 AI 工具極大化交付效率。
+            <p class="text-lg text-gray-500 max-w-3xl leading-relaxed">
+                專注於解決用戶流失痛點，透過結構化數據獲取與優先級策略管理，達成 100% 的刪除動機分析覆蓋率。
             </p>
         </div>
-    </section>
+    </header>
 
-    <section id="projects" class="py-20 bg-white shadow-inner">
-        <div class="max-w-5xl mx-auto px-6">
-            <div class="flex items-center justify-between mb-12">
-                <h2 class="text-3xl font-bold border-l-4 border-blue-600 pl-4">精選產品案例</h2>
-            </div>
+    <main class="py-16 px-6">
+        <div class="max-w-5xl mx-auto">
             
-            <div class="grid md:grid-cols-2 gap-12 items-center border p-10 rounded-3xl hover:shadow-lg transition-shadow duration-300">
-                <div>
-                    <span class="text-blue-600 font-semibold uppercase tracking-widest text-sm">MaaS Platform</span>
-                    <h3 class="text-2xl font-bold mt-2 mb-4 text-gray-900">用戶流失分析與帳號刪除流程優化</h3>
-                    <p class="text-gray-600 mb-6 leading-relaxed">
-                        針對每月平均 260+ 名用戶流失卻無從得知原因的痛點，我重新設計了產品內的刪除路徑。透過建立結構化回饋機制，我們成功將「主觀推測」轉化為「客觀數據」，為後續產品迭代提供精準方向。
-                    </p>
-                    <ul class="space-y-4 mb-2 text-sm text-gray-700">
-                        <li class="flex items-start">
-                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i> 
-                            <span><strong>優先級管理：</strong> 靈活運用現有組件，以最低開發成本實現需求，說服技術團隊優先執行。</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i> 
-                            <span><strong>關鍵成果：</strong> 成功讓刪除動機獲取率從 0% 提升至 100%，建立流失預警基礎。</span>
-                        </li>
-                    </ul>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="md:col-span-2 space-y-10">
+                    <div>
+                        <h2 class="text-sm font-bold text-blue-600 uppercase tracking-widest mb-4 italic">// Context & Challenge</h2>
+                        <p class="text-gray-700 leading-relaxed text-lg">
+                            原本產品在用戶選擇「刪除帳號」時缺乏回饋機制，導致每月平均 <span class="font-bold border-b-2 border-blue-200">260+ 名流失用戶</span> 的動機不明，團隊只能依靠主觀推測進行產品修正。
+                        </p>
+                    </div>
+
+                    <div>
+                        <h2 class="text-sm font-bold text-blue-600 uppercase tracking-widest mb-4 italic">// Strategy & Execution</h2>
+                        <ul class="space-y-6">
+                            <li class="flex items-start">
+                                <div class="bg-blue-100 text-blue-600 rounded-full p-2 mr-4 mt-1"><i class="fas fa-microchip text-xs"></i></div>
+                                <div>
+                                    <h4 class="font-bold mb-1">最小可行性開發 (MVP Approach)</h4>
+                                    <p class="text-gray-600">利用既有組件快速搭建結構化回饋路徑，將技術開發時程從 2 週壓縮至 3 天，成功說服團隊在 Sprint 中插入此任務。</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-blue-100 text-blue-600 rounded-full p-2 mr-4 mt-1"><i class="fas fa-chart-line text-xs"></i></div>
+                                <div>
+                                    <h4 class="font-bold mb-1">建立數據追蹤體系</h4>
+                                    <p class="text-gray-600">重新定義流失標籤，確保每一筆帳號刪除都能對應到具體的痛點（如：價格、功能缺失、操作複雜）。</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="bg-blue-50/50 p-8 rounded-2xl border border-blue-100">
-                    <div class="grid grid-cols-2 gap-4">
-                        <div class="bg-white p-6 rounded-xl shadow-sm text-center">
-                            <div class="text-4xl font-black text-blue-600">260+</div>
-                            <div class="text-[10px] text-gray-400 mt
+
+                <div class="space-y-6">
+                    <div class="bg-blue-600 text-white p-8 rounded-3xl shadow-xl">
+                        <div class="text-5xl font-black mb-2">100%</div>
+                        <div class="text-xs opacity-80 uppercase tracking-tighter">刪除動機獲取率</div>
+                        <div class="mt-4 pt-4 border-t border-blue-500/50 text-sm italic">
+                            從「通靈推測」轉向「結構化數據分析」
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gray-100 p-8 rounded-3xl border border-gray-200">
+                        <div class="text-4xl font-bold text-gray-800 mb-2">260+</div>
+                        <div class="text-xs text-gray-400 uppercase tracking-tighter">每月有效分析樣本</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="py-10 border-t border-gray-100">
+        <div class="max-w-5xl mx-auto px-6 text-gray-400 text-[10px] tracking-[0.2em] uppercase">
+            Product Case Study 2026 / YC
+        </div>
+    </footer>
+
+</body>
+</html>
