@@ -3,74 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YC | Product Manager Project Portfolio</title>
+    <title>YC | SCM & Product Management Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body class="bg-white text-gray-900 font-sans">
+<body class="bg-gray-50 text-slate-900 font-sans leading-relaxed">
 
-    <nav class="w-full bg-white border-b border-gray-100 sticky top-0 z-50">
-        <div class="max-w-5xl mx-auto px-6 py-4">
-            <span class="text-sm font-black tracking-widest text-blue-600">YC / PRODUCT CASE STUDY</span>
+    <nav class="w-full bg-white/90 backdrop-blur-md border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-sm font-black tracking-[0.2em] text-blue-700">YC / PRODUCT EXCELLENCE</span>
+            <div class="space-x-8 text-xs font-bold uppercase tracking-widest text-slate-400">
+                <a href="#projects" class="hover:text-blue-600 transition">Case Studies</a>
+            </div>
         </div>
     </nav>
 
-    <header class="pt-20 pb-16 px-6 bg-gray-50">
-        <div class="max-w-5xl mx-auto">
-            <h1 class="text-4xl font-extrabold mb-4 tracking-tight">
-                MaaS 平台：數據驅動的產品迭代優化
+    <header class="pt-24 pb-16 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-black mb-6 tracking-tight text-slate-900">
+                Supply Chain & <br><span class="text-blue-600">Product Management</span>
             </h1>
-            <p class="text-lg text-gray-500 max-w-3xl leading-relaxed">
-                專注於解決用戶流失痛點，透過結構化數據獲取與優先級策略管理，達成 100% 的刪除動機分析覆蓋率。
+            <p class="text-xl text-slate-500 max-w-2xl">
+                擅長將供應鏈中的「資訊斷層」轉化為「數據資產」。透過 MVP 開發策略優化端到端流程，提升營運透明度與決策效率。
             </p>
         </div>
     </header>
 
-    <main class="py-16 px-6">
-        <div class="max-w-5xl mx-auto">
+    <main id="projects" class="pb-24 px-6 space-y-12">
+        <div class="max-w-4xl mx-auto">
             
-            <div class="grid md:grid-cols-3 gap-12">
-                <div class="md:col-span-2 space-y-10">
-                    <div>
-                        <h2 class="text-sm font-bold text-blue-600 uppercase tracking-widest mb-4 italic">// Context & Challenge</h2>
-                        <p class="text-gray-700 leading-relaxed text-lg">
-                            原本產品在用戶選擇「刪除帳號」時缺乏回饋機制，導致每月平均 <span class="font-bold border-b-2 border-blue-200">260+ 名流失用戶</span> 的動機不明，團隊只能依靠主觀推測進行產品修正。
-                        </p>
-                    </div>
+            <h2 class="text-xs font-bold text-slate-400 uppercase tracking-[0.3em] mb-8 flex items-center">
+                <span class="bg-slate-400 h-[1px] w-8 mr-3"></span>Selected Projects
+            </h2>
 
-                    <div>
-                        <h2 class="text-sm font-bold text-blue-600 uppercase tracking-widest mb-4 italic">// Strategy & Execution</h2>
-                        <ul class="space-y-6">
-                            <li class="flex items-start">
-                                <div class="bg-blue-100 text-blue-600 rounded-full p-2 mr-4 mt-1"><i class="fas fa-microchip text-xs"></i></div>
-                                <div>
-                                    <h4 class="font-bold mb-1">最小可行性開發 (MVP Approach)</h4>
-                                    <p class="text-gray-600">利用既有組件快速搭建結構化回饋路徑，將技術開發時程從 2 週壓縮至 3 天，成功說服團隊在 Sprint 中插入此任務。</p>
-                                </div>
-                            </li>
-                            <li class="flex items-start">
-                                <div class="bg-blue-100 text-blue-600 rounded-full p-2 mr-4 mt-1"><i class="fas fa-chart-line text-xs"></i></div>
-                                <div>
-                                    <h4 class="font-bold mb-1">建立數據追蹤體系</h4>
-                                    <p class="text-gray-600">重新定義流失標籤，確保每一筆帳號刪除都能對應到具體的痛點（如：價格、功能缺失、操作複雜）。</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="space-y-6">
-                    <div class="bg-blue-600 text-white p-8 rounded-3xl shadow-xl">
-                        <div class="text-5xl font-black mb-2">100%</div>
-                        <div class="text-xs opacity-80 uppercase tracking-tighter">刪除動機獲取率</div>
-                        <div class="mt-4 pt-4 border-t border-blue-500/50 text-sm italic">
-                            從「通靈推測」轉向「結構化數據分析」
+            <div class="group bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-xl hover:border-blue-200 transition-all duration-300 p-8 md:p-12 mb-8">
+                <div class="flex flex-col md:flex-row justify-between gap-8">
+                    <div class="md:w-3/4">
+                        <div class="text-blue-600 font-mono text-xs mb-2 font-bold uppercase tracking-widest">#01 / Service Flow Optimization</div>
+                        <h3 class="text-2xl font-bold mb-4 text-slate-900 group-hover:text-blue-600 transition-colors">MaaS 平台：用戶流失原因結構化專案</h3>
+                        <p class="text-slate-600 mb-6">針對服務終止階段的資訊斷層（每月 260+ 筆），重新設計回饋路徑。核心在於透過數據標準化，解決供應端無法識別服務痛點的問題。</p>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                            <div class="border-l-2 border-slate-100 pl-4">
+                                <h4 class="text-xs font-bold text-slate-400 uppercase mb-2">Strategic Move</h4>
+                                <p class="text-sm text-slate-700 font-medium">複用既有 UI 組件，以 0 成本前端開發實現 100% 數據覆蓋率。</p>
+                            </div>
+                            <div class="border-l-2 border-slate-100 pl-4">
+                                <h4 class="text-xs font-bold text-slate-400 uppercase mb-2">Key Result</h4>
+                                <p class="text-sm text-slate-700 font-medium">建立流失預警指標，為後續供應鏈成本優化提供數據支持。</p>
+                            </div>
                         </div>
                     </div>
-                    
-                    <div class="bg-gray-100 p-8 rounded-3xl border border-gray-200">
-                        <div class="text-4xl font-bold text-gray-800 mb-2">260+</div>
-                        <div class="text-xs text-gray-400 uppercase tracking-tighter">每月有效分析樣本</div>
+                    <div class="md:w-1/4 flex flex-col justify-center items-center bg-slate-50 rounded-xl p-6 border border-slate-100">
+                        <div class="text-3xl font-black text-blue-600">100%</div>
+                        <div class="text-[10px] text-slate-400 uppercase tracking-tighter mt-1 font-bold">Data Coverage</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group bg-white border border-gray-200 rounded-2xl shadow-sm p-8 md:p-12 opacity-80 hover:opacity-100 transition-opacity mb-8 border-dashed">
+                <div class="flex flex-col md:flex-row justify-between gap-8">
+                    <div class="md:w-3/4">
+                        <div class="text-slate-400 font-mono text-xs mb-2 font-bold uppercase tracking-widest">#02 / Efficiency & Logistics</div>
+                        <h3 class="text-2xl font-bold mb-4 text-slate-400">[案例標題：例如 倉儲系統/自動化優化]</h3>
+                        <p class="text-slate-500 italic">在此處填入你的第二個專案。建議專注於「效率提升」或「成本降低」。例如：優化了某個流程，讓 Lead Time 縮短了多少？</p>
+                    </div>
+                    <div class="md:w-1/4 flex flex-col justify-center items-center bg-gray-50 rounded-xl p-6 border border-gray-100">
+                        <div class="text-3xl font-black text-gray-300">TBD</div>
+                        <div class="text-[10px] text-gray-300 uppercase tracking-tighter mt-1 font-bold">Key Metric</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group bg-white border border-gray-200 rounded-2xl shadow-sm p-8 md:p-12 opacity-80 hover:opacity-100 transition-opacity border-dashed">
+                <div class="flex flex-col md:flex-row justify-between gap-8">
+                    <div class="md:w-3/4">
+                        <div class="text-slate-400 font-mono text-xs mb-2 font-bold uppercase tracking-widest">#03 / Cross-functional Integration</div>
+                        <h3 class="text-2xl font-bold mb-4 text-slate-400">[案例標題：例如 供應商管理/ERP 整合]</h3>
+                        <p class="text-slate-500 italic">在此處填入第三個專案。建議強調「跨部門溝通」與「解決複雜衝突」的能力。</p>
+                    </div>
+                    <div class="md:w-1/4 flex flex-col justify-center items-center bg-gray-50 rounded-xl p-6 border border-gray-100">
+                        <div class="text-3xl font-black text-gray-300">TBD</div>
+                        <div class="text-[10px] text-gray-300 uppercase tracking-tighter mt-1 font-bold">Key Metric</div>
                     </div>
                 </div>
             </div>
@@ -78,9 +92,9 @@
         </div>
     </main>
 
-    <footer class="py-10 border-t border-gray-100">
-        <div class="max-w-5xl mx-auto px-6 text-gray-400 text-[10px] tracking-[0.2em] uppercase">
-            Product Case Study 2026 / YC
+    <footer class="py-20 border-t border-gray-100">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <div class="text-xs text-slate-400 font-mono tracking-[0.5em] uppercase">Built for SCM Impact // 2026</div>
         </div>
     </footer>
 
