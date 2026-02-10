@@ -1,90 +1,105 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YC | SCM & Product Management Portfolio</title>
+    <title>YC | Product Management Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body class="bg-gray-50 text-slate-900 font-sans leading-relaxed">
+<body class="bg-slate-50 text-slate-900 font-sans leading-relaxed">
 
-    <nav class="w-full bg-white/90 backdrop-blur-md border-b border-gray-200 sticky top-0 z-50">
+    <nav class="w-full bg-white/90 backdrop-blur-md border-b border-gray-100 sticky top-0 z-50">
         <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
-            <span class="text-sm font-black tracking-[0.2em] text-blue-700">YC / PRODUCT EXCELLENCE</span>
-            <div class="space-x-8 text-xs font-bold uppercase tracking-widest text-slate-400">
+            <span class="text-sm font-black tracking-[0.2em] text-blue-700">PROFESSIONAL EXPERIENCE</span>
+            <div class="space-x-8 text-[10px] font-bold uppercase tracking-widest text-slate-400">
+                <a href="#competencies" class="hover:text-blue-600 transition">Competencies</a>
                 <a href="#projects" class="hover:text-blue-600 transition">Case Studies</a>
             </div>
         </div>
     </nav>
 
-    <header class="pt-24 pb-16 px-6">
+    <header class="pt-24 pb-16 px-6 bg-white">
         <div class="max-w-4xl mx-auto">
             <h1 class="text-4xl md:text-5xl font-black mb-6 tracking-tight text-slate-900">
-                Supply Chain & <br><span class="text-blue-600">Product Management</span>
+                Data-Driven <br><span class="text-blue-600">Product Management</span>
             </h1>
-            <p class="text-xl text-slate-500 max-w-2xl">
-                擅長將供應鏈中的「資訊斷層」轉化為「數據資產」。透過 MVP 開發策略優化端到端流程，提升營運透明度與決策效率。
+            <p class="text-xl text-slate-500 max-w-2xl leading-relaxed">
+                Possess strong planning and execution skills, supported by data analysis and cross-functional coordination to drive strategic outcomes in SCM and MaaS platforms.
             </p>
+            
+            <div id="competencies" class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12">
+                <div class="p-4 border-l border-slate-200">
+                    <div class="text-blue-600 text-xs font-bold uppercase mb-1">Planning</div>
+                    <div class="text-sm text-slate-600">Strategic Roadmap & Scoping</div>
+                </div>
+                <div class="p-4 border-l border-slate-200">
+                    <div class="text-blue-600 text-xs font-bold uppercase mb-1">Execution</div>
+                    <div class="text-sm text-slate-600">Agile Delivery & MVP Launch</div>
+                </div>
+                <div class="p-4 border-l border-slate-200">
+                    <div class="text-blue-600 text-xs font-bold uppercase mb-1">Analysis</div>
+                    <div class="text-sm text-slate-600">Data-Informed Decisions</div>
+                </div>
+                <div class="p-4 border-l border-slate-200">
+                    <div class="text-blue-600 text-xs font-bold uppercase mb-1">Coordination</div>
+                    <div class="text-sm text-slate-600">Stakeholder Management</div>
+                </div>
+            </div>
         </div>
     </header>
 
-    <main id="projects" class="pb-24 px-6 space-y-12">
+    <main id="projects" class="py-20 px-6 space-y-16">
         <div class="max-w-4xl mx-auto">
             
-            <h2 class="text-xs font-bold text-slate-400 uppercase tracking-[0.3em] mb-8 flex items-center">
-                <span class="bg-slate-400 h-[1px] w-8 mr-3"></span>Selected Projects
+            <h2 class="text-xs font-bold text-slate-400 uppercase tracking-[0.3em] mb-12 flex items-center">
+                <span class="bg-slate-400 h-[1px] w-8 mr-3"></span>Featured Case Studies
             </h2>
 
-            <div class="group bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-xl hover:border-blue-200 transition-all duration-300 p-8 md:p-12 mb-8">
-                <div class="flex flex-col md:flex-row justify-between gap-8">
-                    <div class="md:w-3/4">
-                        <div class="text-blue-600 font-mono text-xs mb-2 font-bold uppercase tracking-widest">#01 / Service Flow Optimization</div>
-                        <h3 class="text-2xl font-bold mb-4 text-slate-900 group-hover:text-blue-600 transition-colors">MaaS 平台：用戶流失原因結構化專案</h3>
-                        <p class="text-slate-600 mb-6">針對服務終止階段的資訊斷層（每月 260+ 筆），重新設計回饋路徑。核心在於透過數據標準化，解決供應端無法識別服務痛點的問題。</p>
-                        
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                            <div class="border-l-2 border-slate-100 pl-4">
-                                <h4 class="text-xs font-bold text-slate-400 uppercase mb-2">Strategic Move</h4>
-                                <p class="text-sm text-slate-700 font-medium">複用既有 UI 組件，以 0 成本前端開發實現 100% 數據覆蓋率。</p>
-                            </div>
-                            <div class="border-l-2 border-slate-100 pl-4">
-                                <h4 class="text-xs font-bold text-slate-400 uppercase mb-2">Key Result</h4>
-                                <p class="text-sm text-slate-700 font-medium">建立流失預警指標，為後續供應鏈成本優化提供數據支持。</p>
-                            </div>
+            <div class="bg-white border border-gray-200 rounded-3xl shadow-sm overflow-hidden">
+                <div class="p-8 md:p-12">
+                    <div class="flex flex-col md:flex-row justify-between items-start gap-6 mb-8">
+                        <div>
+                            <div class="text-blue-600 font-mono text-xs mb-2 font-bold uppercase">#01 / MaaS Optimization</div>
+                            <h3 class="text-2xl font-bold text-slate-900">User Churn Analysis & Process Refinement</h3>
+                        </div>
+                        <div class="bg-blue-50 px-4 py-2 rounded-lg text-blue-700 font-bold text-sm">
+                            100% Insight Capture
                         </div>
                     </div>
-                    <div class="md:w-1/4 flex flex-col justify-center items-center bg-slate-50 rounded-xl p-6 border border-slate-100">
-                        <div class="text-3xl font-black text-blue-600">100%</div>
-                        <div class="text-[10px] text-slate-400 uppercase tracking-tighter mt-1 font-bold">Data Coverage</div>
+
+                    <div class="grid md:grid-cols-2 gap-10">
+                        <div>
+                            <h4 class="text-xs font-black text-slate-400 uppercase mb-4 tracking-tighter">The Challenge</h4>
+                            <p class="text-slate-600 text-sm">Identified a critical information gap where 260+ monthly account deletions lacked feedback, hindering service quality improvements.</p>
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-black text-slate-400 uppercase mb-4 tracking-tighter">Execution & Impact</h4>
+                            <ul class="text-sm text-slate-700 space-y-3">
+                                <li class="flex items-start">
+                                    <i class="fas fa-caret-right text-blue-500 mt-1 mr-2"></i>
+                                    <span><strong>Strategic Scoping:</strong> Leveraged existing UI components to minimize dev cost while achieving full data coverage.</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-caret-right text-blue-500 mt-1 mr-2"></i>
+                                    <span><strong>Cross-functional Sync:</strong> Coordinated with engineering teams to prioritize the feedback loop within a 1-week sprint.</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-caret-right text-blue-500 mt-1 mr-2"></i>
+                                    <span><strong>Outcomes:</strong> Transformed qualitative pain points into quantitative metrics for product roadmap prioritization.</span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="group bg-white border border-gray-200 rounded-2xl shadow-sm p-8 md:p-12 opacity-80 hover:opacity-100 transition-opacity mb-8 border-dashed">
-                <div class="flex flex-col md:flex-row justify-between gap-8">
-                    <div class="md:w-3/4">
-                        <div class="text-slate-400 font-mono text-xs mb-2 font-bold uppercase tracking-widest">#02 / Efficiency & Logistics</div>
-                        <h3 class="text-2xl font-bold mb-4 text-slate-400">[案例標題：例如 倉儲系統/自動化優化]</h3>
-                        <p class="text-slate-500 italic">在此處填入你的第二個專案。建議專注於「效率提升」或「成本降低」。例如：優化了某個流程，讓 Lead Time 縮短了多少？</p>
-                    </div>
-                    <div class="md:w-1/4 flex flex-col justify-center items-center bg-gray-50 rounded-xl p-6 border border-gray-100">
-                        <div class="text-3xl font-black text-gray-300">TBD</div>
-                        <div class="text-[10px] text-gray-300 uppercase tracking-tighter mt-1 font-bold">Key Metric</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="group bg-white border border-gray-200 rounded-2xl shadow-sm p-8 md:p-12 opacity-80 hover:opacity-100 transition-opacity border-dashed">
-                <div class="flex flex-col md:flex-row justify-between gap-8">
-                    <div class="md:w-3/4">
-                        <div class="text-slate-400 font-mono text-xs mb-2 font-bold uppercase tracking-widest">#03 / Cross-functional Integration</div>
-                        <h3 class="text-2xl font-bold mb-4 text-slate-400">[案例標題：例如 供應商管理/ERP 整合]</h3>
-                        <p class="text-slate-500 italic">在此處填入第三個專案。建議強調「跨部門溝通」與「解決複雜衝突」的能力。</p>
-                    </div>
-                    <div class="md:w-1/4 flex flex-col justify-center items-center bg-gray-50 rounded-xl p-6 border border-gray-100">
-                        <div class="text-3xl font-black text-gray-300">TBD</div>
-                        <div class="text-[10px] text-gray-300 uppercase tracking-tighter mt-1 font-bold">Key Metric</div>
+            <div class="bg-gray-50 border border-gray-200 border-dashed rounded-3xl p-8 md:p-12">
+                <div class="flex flex-col md:flex-row justify-between items-start gap-6">
+                    <div>
+                        <div class="text-slate-400 font-mono text-xs mb-2 font-bold uppercase">#02 / Supply Chain Management</div>
+                        <h3 class="text-2xl font-bold text-slate-300">Case Title: [To be updated]</h3>
+                        <p class="mt-4 text-slate-400 italic text-sm italic">"Ready to showcase your planning and execution skills in logistics or operations."</p>
                     </div>
                 </div>
             </div>
@@ -92,9 +107,14 @@
         </div>
     </main>
 
-    <footer class="py-20 border-t border-gray-100">
-        <div class="max-w-4xl mx-auto px-6 text-center">
-            <div class="text-xs text-slate-400 font-mono tracking-[0.5em] uppercase">Built for SCM Impact // 2026</div>
+    <footer class="py-16 border-t border-gray-100 bg-white">
+        <div class="max-w-4xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-[10px] text-slate-400 font-mono tracking-widest uppercase text-center md:text-left">
+                YC Portfolio // Product Management // 2026
+            </div>
+            <div class="flex gap-6">
+                <span class="text-[10px] text-slate-300 font-bold uppercase tracking-widest cursor-not-allowed">LinkedIn Coming Soon</span>
+            </div>
         </div>
     </footer>
 
